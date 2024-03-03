@@ -1,0 +1,84 @@
+* {padding: 0%;
+    margin: 0%;}
+.header {
+    background-color:  #10c29b;
+}
+.nav > ul > li>  a:visited{color: rgb(153, 0, 255);}
+.nav > ul > li>  a:link{color: rgb(40, 219, 243);}
+.nav > ul > li>  a:hover{color: red;}
+.nav > ul > li>  a:active{color: rgb(255, 251, 0);}
+li {display: inline-block; padding: 10px; }
+li:hover{background-color: #10c29b;}
+.nav {background-color: black;text-align: center;}
+a{text-decoration: none; font-size: larger;}
+.footer {background:  linear-gradient(#ffffff, #10c29b ); text-align: center;clear: both;}
+.footer > p {color: rgb(0, 0, 0);}
+::selection{
+    color: rgb(0, 0, 0);
+    background-color: rgb(229, 255, 0);
+}
+.header {text-align: center; width:100%;padding-bottom:20px ;}
+.header > h1{color: rgb(0, 0, 0);}
+
+
+.introduction {margin: 2.5% auto 0 auto;
+    width: 80%;}
+.info>p:hover,.welcome:hover{box-shadow: rgba(2, 226, 215, 0.63) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+.img {width: 100%;}
+.stats{margin: auto;
+    width: 80%; 
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;}
+caption{background-color: #10c29b;  
+    width: 100%; 
+    margin: auto ;
+    text-align: center;
+     font-weight: bolder;
+     font-size: larger; 
+     margin-bottom: 10px;}
+
+table{margin: auto ;width: 100%;border-collapse: collapse;clear: both;}
+th{background-color: rgb(0, 0, 0);color:#10c29b;}
+table,td,th{border: 0.5px solid black;text-align: center;padding: 5px;}
+tr:hover{background-color: lightblue !important;}
+tr:nth-child(even){background-color:rgb(224, 224, 224);}
+body{background:linear-gradient(#10c29b 50%,white 80%);}
+
+.welcome{
+    margin: 0 0% 2.5% 0%;
+    text-align: center;
+    padding: 1%;
+    border-radius: 20px;
+    border: 2px solid #10c29b;
+    box-shadow:0px 10px 20px #10c29b}
+
+.info>p{
+    float: left;
+    border: 2px solid #10c29b;
+    width: 17%;
+    height: 200px;
+    overflow: auto;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow:0px 10px 20px #10c29b
+}
+.p1{
+    margin: 0%;
+    margin-right: 2%;
+}
+.p2{
+    margin: 0% 2%;
+}     
+.p3{
+    margin: 0%;
+    margin-left: 2%;
+}  
+.clear{
+    clear: both !important;
+    height: 0% !important;
+    width: 0% !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.active{background-color: #10c29b;}

@@ -1,0 +1,55 @@
+* {padding: 0%;
+    margin: 0%;}
+.header {
+    background-color:  #10c29b;
+}
+.nav > ul > li>  a:visited{color: rgb(153, 0, 255);}
+.nav > ul > li>  a:link{color: rgb(40, 219, 243);}
+.nav > ul > li>  a:hover{color: red;}
+.nav > ul > li>  a:active{color: rgb(255, 251, 0);}
+li {display: inline-block; padding: 10px; }
+li:hover{background-color: #10c29b;}
+.nav {background-color: black;text-align: center;}
+a{text-decoration: none; font-size: larger;}
+.footer {background:  linear-gradient(#ffffff, #10c29b ); text-align: center;clear: both;}
+.footer > p {color: rgb(0, 0, 0);}
+::selection{color: rgb(0, 0, 0);background-color: rgb(229, 255, 0);}
+.header {text-align: center; width:100%;padding-bottom:20px ;}
+.header > h1{color: rgb(0, 0, 0);}
+.visit{text-align: center; margin: 10px auto; }
+
+
+.image{float: left;width: 40%;height: 60%;padding: 6px; border: 2px solid #10c29b;margin: 0.5% 1% 3% 5%;border-radius: 5px;
+    box-shadow: rgba(2, 226, 215, 0.63) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+.image img{height: 40%;width: 90%;  margin: auto;}
+.location{float: left;width: 40%; height: 45%;padding: 6px; border: 2px solid #10c29b;margin: 0.5% 0 1% 1% ; border-radius: 5px;padding-bottom: 25%;
+    box-shadow: rgba(2, 226, 215, 0.63) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+.bookinginfo {clear: both;}
+
+
+span{font-weight: bolder; font-size:xx-large; margin-left:40px ;}
+.location > p{margin-left:40px ;font-size: 1em;}
+.bookinginfo>h4{text-align: center;}
+
+.bookinginfo{margin-top: 200px;}
+fieldset{width: 60%;margin: 10px auto; }
+label{margin: 5px;}
+.image img:hover{box-shadow: rgba(2, 226, 215, 0.63) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+fieldset:hover{box-shadow: rgba(2, 226, 215, 0.63) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+
+
+.label1 {position: relative; left: 73px;  ;}
+.inputarea1 {position: relative; left: 71px;width: 140px;}
+.label2 {position: relative; left: 70px;}
+.inputarea2 {position: relative; left: 68px;;width: 100px;}
+.label3 {position: relative; left: 9px;}
+.inputarea3 {position: relative; left: 7px;width: 70px;}
+.inputarea1,.inputarea2,.inputarea3,.label1,.label2,.label3{margin-top: 6px;}
+.button{position: relative;left :110px;margin:10px ;}
+
+body{background: linear-gradient(#10c29b 20%,white 50%);}
+.active{background-color: #10c29b;}
+#error {
+    position: relative;
+    text-align: center;
+color: red;}

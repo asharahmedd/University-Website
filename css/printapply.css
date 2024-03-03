@@ -1,0 +1,18 @@
+nav{display: none;}
+.c1{display: none;}
+.c2{display: none;}
+* {padding: 0%;
+    margin: 0%;}
+.header {text-align: center; width:100%;padding-bottom:20px ;}
+.header > h1{color: rgb(0, 0, 0);}
+.footer { text-align: center;clear: both;}
+.footer > p {color: rgb(0, 0, 0);}
+
+
+table{margin: auto ;width: 95%;border-collapse: collapse;}
+
+table,td,th{border: 0.5px solid lightgray;padding: 5px;}
+
+h2{margin: 10px;}
+tr:nth-child(odd){background-color:rgb(224, 224, 224);}
+/*why image is black*/

@@ -1,0 +1,194 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.header {
+    background-color: #10c29b;
+}
+
+.nav>ul>li>a:visited {
+    color: rgb(153, 0, 255);
+}
+
+.nav>ul>li>a:link {
+    color: rgb(40, 219, 243);
+}
+
+.nav>ul>li>a:hover {
+    color: red;
+}
+
+.nav>ul>li>a:active {
+    color: rgb(255, 251, 0);
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: #10c29b;
+}
+
+.nav {
+    background-color: black;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: larger;
+}
+
+.footer {
+    background: linear-gradient(#ffffff, #10c29b);
+    text-align: center;
+    clear: both;
+}
+
+.footer>p {
+    color: rgb(0, 0, 0);
+}
+
+::selection {
+    color: rgb(0, 0, 0);
+    background-color: rgb(229, 255, 0);
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.header>h1 {
+    color: rgb(0, 0, 0);
+}
+
+.c2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #10c29b;
+}
+
+.c1 {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+#collegeofengineering,
+#collegeofinterdisciplinarystudies,
+#collegeofscience {
+    width: 100%;
+}
+
+.c1 {
+    background: linear-gradient(#10c29b 10%, white 100%);
+}
+
+h3 {
+    text-align: center;
+}
+
+form {
+    margin: 1%;
+}
+
+form {
+    float: left;
+    width: 30%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+#coe,
+#cos,
+#coid {
+    text-align: center;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 0 60px;
+    border: 2px solid black;
+    border-radius: 10px 10px 0px 0px;
+    color: #10c29b;
+}
+
+
+table {
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(0, 0, 0);
+    color: #10c29b;
+}
+
+table,
+td,
+th {
+    border: 0.5px solid lightgray;
+    padding: 5px;
+
+}
+
+tr:hover {
+    background-color: lightblue !important;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(224, 224, 224);
+}
+
+h2,
+input[type="submit"],
+input[type="reset"] {
+    position: relative;
+    left: 3%;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    transform: scale(1.02, 1.02);
+}
+
+table:hover {
+    box-shadow: #10c29b 0px 10px 20px, #10c29b 0px 6px 6px;
+    
+}
+
+form>img {
+    width: 50%;
+    height: 50%;
+}
+h4{    position: relative;
+    left: 3%;}
+    
+#error{text-align: center;
+     color: red ;}
+
+
+.button-link {
+    border: 1px solid black;
+    padding: 4px;
+    margin: 2px;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.button-link:active {
+    color: black;
+}
+.Tableblock{
+    width: 90%;
+    margin: 2%;
+}

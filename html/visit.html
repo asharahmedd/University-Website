@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Page</title>
+    <link rel="stylesheet" href="../css/visit.css" media="all" type="text/css">
+    <script type="text/javascript" src="https://personal.cs.cityu.edu.hk/~cs2204/2023/cw3cs2204.js"></script>
+    <script type="text/javascript" src="../javascript/visitjs.js"></script>
+</head>
+
+
+<body>
+    <header class="header">
+        <img src="../images/logo.png" width="400" height="100" alt="Logo image">
+        <h1>HongKong Industrial University</h1>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="../index.html"> Home</a></li>
+            <li><a href="about.html"> About </a></li>
+            <li><a href="apply.html"> Apply </a></li>
+            <li class="active"><a href="visit.html"> Visit </a></li>
+            <li><a href="program.html">Program</a></li>
+            <li><a href="contact.html"> Contact </a></li>
+        </ul>
+    </nav>
+    <div class="visit">
+        <p>
+            We warmly welcome you to visit us at our Kowloon campus and experience our
+            vibrant learning community. Our campus is located in the Hong Kong Kowloon
+            High-Tech Park, where we collaborate closely with institutes of the
+            Chinese Academy of Sciences.
+        </p><br>
+        <p>
+            During your visit, you can explore our world-class facilities, including
+            the Protein Folding Science Center, Hong Kong Advanced Computing
+            Equipment, Hong Kong Ultrafast Laser Facility, Hong Kong Electron-Positron
+            Collider, and Hong Kong Supercomputer Facility. These facilities are
+            available to our faculty, students, and researchers worldwide.
+        </p><br>
+        <p>
+            will also have the chance to meet our renowned scholars and experts
+            from home and abroad committed to providing students with cutting-edge
+            knowledge and skills in their respective fields. Our faculty members are
+            recognized leaders in their fields, and their research has been published
+            in prestigious journals such as Cell, Nature, and Science.
+        </p><br>
+        <p>
+            We hope you will come and visit us soon to experience firsthand the
+            dynamic and innovative community at Hong Kong Industrial University.
+            location
+        </p>
+    </div>
+
+    <div class="image">
+        <p>
+            <img src="../images/location.jpg" alt="location image" width="1000" height="800">
+        </p>
+    </div>
+
+    <div class="location">
+        <span>Location</span>
+        <br>
+        <br>
+        <p>
+            Address : Tat Chee Avenue,Kowloon Hong Kong SAR
+        </p>
+
+        <p>
+            Tel : (852) 1234 5678
+        </p>
+
+        <p>
+            Business Hours : 8:30 AM to 17:30 PM
+        </p>
+
+        <p>
+            Email: visit@hkiu.edu.hk
+        </p>
+    </div>
+
+    <div class="bookinginfo">
+
+        <h4>HONG KONG Industrial University is having an open day on campus! Please make a reservation to visit our
+            campus!</h4>
+        <form class="form" name="onlyform" action="#" method="get">
+            <fieldset>
+
+                <legend>Booking Information:</legend>
+
+                <div class="form">
+                    <label class="label1" >Date:</label>
+                    <input class="inputarea1" type="date" id="date" name="ddate" value=""><br>
+
+                    <label class="label2" for="Time">Time:</label>
+                    <select class="inputarea2" name="time" id="Time">
+                        <option value="89">8:00-9:00am</option>
+                        <option value="910">9:00-10:00am</option>
+                        <option value="1011">10:00-11:00pm</option>
+                        <option value="1112">11:00-12:00pm</option>
+                        <option value="121">12:00-1:00pm</option>
+                    </select> <br>
+                    <label class="label3" for="visitors">No. of Visitors:</label>
+                    <input class="inputarea3"  id="visitors" name="nnumber" ><br>
+                </div>
+                
+                <div class="buttons">
+                    <button id="button" class="button" name="submit" type="submit" onclick="available(event)">Check Availibility</button>
+                    <button class="button" name="reset" type="reset">Reset</button>
+                </div>
+                <p id="error"></p>
+            </fieldset>
+        </form>
+    </div>
+    <footer class="footer">
+        <img src="../images/footer_logo.png" width="300" height="100" alt="footer logo">
+        <br>
+        <p>
+            @CityU 2023 - sources of images and text from Wikipedia and Courtesy of Icon pack by Icons8 - designed by <a
+                href="design.html"> Ashar Ahmed Siddiqui </a>
+        </p>
+    </footer>   
+</body>
+
+
+</html>
